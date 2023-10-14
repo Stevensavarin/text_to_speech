@@ -1,30 +1,28 @@
 # text_to_speech
-![image](https://github.com/Stevensavarin/text_to_speech/assets/137004357/e9075f39-0c14-4f89-a5f0-e556756e3aa0)
+![image](https://github.com/Stevensavarin/text_to_speech/assets/137004357/a6e7108b-1fc0-4104-911e-39851c8fcae9)
 
 
-## Text To Speech Converter
-Text To Speech Converter is a simple Python application with a graphical user interface that allows users to select text files and convert them into audio files. 
-The project has been designed to be user-friendly and efficient, enabling users to quickly transform textual content into an audible audio format.
+## Text to Speech Converter with Language Selection
+This Python application is designed to convert text files into audio files using Google Text-to-Speech (gTTS) with the added feature of selecting the output language. The program provides an intuitive user interface for selecting a text file and a target language for the conversion. Upon conversion, the text content is transformed into an audio file in the specified language, allowing for versatile text-to-speech functionality.
 
-# Key Features:
-Easy selection of text files.
-Real-time text-to-speech conversion.
-Saving of audio files in a "converted" folder.
-Intuitive and attractive graphical interface.
+# Key Features
+Text to Speech Conversion: Easily convert text files into audio files in your preferred language.
+Language Selection: Choose from a wide range of supported languages, making it suitable for diverse language requirements.
+User-Friendly Interface: The graphical user interface (GUI) ensures a simple and user-friendly experience.
+Conversion Progress: The application displays a progress bar, keeping the user informed of the conversion process.
+Language Variety: With an extensive list of supported languages, users can create audio files in their desired language.
+Efficient Multithreading: Text-to-speech conversion is handled in the background using threads, ensuring a responsive UI even during lengthy conversions.
 
-# How to Use:
-Run the application.
-Click the "Select Text File" button to load a text file.
-The application will generate an audio file based on the content of the selected text file.
-The resulting audio file will be saved in the "converted" folder.
-Enjoy your audio files generated from text!
-Text To Speech Converter is a project that simplifies the conversion of textual content into audio, making it useful for tasks such as creating audiobooks, 
-generating voice tracks for presentations, and more.
+# Getting Started
+- Clone the repository to your local machine.
+- Install the required Python packages using pip install -r requirements.txt.
+- Run the program using python main.py.
+- Select a text file to convert, choose your desired language, and click "Convert to Audio."
+- The progress bar indicates the conversion status, and the resulting audio file is stored in the "converted" folder.
 
-# Requirements:
-Python 3.x
-tkinter library
-gtts library
-Enjoy your text-to-speech conversion experience with Text To Speech Converter!
+# Dependencies
+gTTS (Google Text-to-Speech)
+googletrans
+tkinter (for GUI)
 
 Don't forget to customize this description according to the specific features of your project and your presentation style.
